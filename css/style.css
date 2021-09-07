@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;500;700&display=swap');
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0;
+}
+.banner{
+	background-color: white;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1{
+	margin: 0;
+    font-size: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4e4e4e;
+    line-height: 1;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+p{
+	margin: 0;
+	font-size: 22px;
+	color: #737373;
+	line-height: 1.7em;
+	margin-top: -10px;
+	font-weight: 300;
+	margin-top: 30px;
+}
+.about-us{
+	
+	display: flex;
+	padding-top: 100px;
+	background-color: #ebebee;
+}
+.row{
+    display: flex;
+}
+h2{
+    font-size: 42px;
+    color: #4e4e4e;
+}
+strong{
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #737373;
+}
+.col-1 p{
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.col-1{
+	flex-basis: 45%;
+	max-width: 45%;
+	padding: 20px;
+	text-align: left;
+}
+.col-2{
+    flex-basis: 55%;
+    max-width: 55%;
+    padding: 20px;
+}
+.img_0{
+    max-width: 100%;
+}
+.img_1{
+    width: 300px;
+    border-radius: 28px;
+    transform: translate(40px, 40px);
+}
+.pre_order{
+
+padding-top: 100px;
+
+padding-bottom: 100px;
+}
+.img_2{
+    border-radius: 28px;
+}
+.img_3{
+    border-radius: 15px;
+    transform: translate(40px, 40px);
+}
+.img_4{
+    border-radius: 15px;
+}
+.col-3{
+	flex-basis: 55%;
+	max-width: 55%;
+	padding: 20px;
+}
+.col-4{
+	flex-basis: 45%;
+	max-width: 45%;
+	padding: 20px;
+	text-align: right;
+}
+button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #8d9eae;
+    width: 200px;
+    height: 60px;
+    border-radius: 12px;
+    border: solid 0;
+    text-align: right;
+    font-size: 28px;
+    color: white;
+}
+.awards{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h3{
+    margin: 0;
+    font-size: 52px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.col_a{
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 20px;
+}
+.col_b{
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 20px;
+}
+.col_c{
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 20px;
+}
+.col_d{
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 20px;
+}
+.nana{
+    width: 50%;
+}
+.group{
+    width: 95%;
+}
+.herb{
+    width: 95%;
+}
+.pan{
+    width: 55%;
+}
+.details{
+	background-color: #ebebee;
+	padding-top: 100px;	
+	padding-bottom: 100px;
+	text-align: center;
+	width: 1200px;	
+	margin-right: auto;	
+	margin-left: auto;
+}
